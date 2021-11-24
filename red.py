@@ -147,8 +147,8 @@ def menu():
         exit(" %s[!] anda tidak terhubung ke internet!"%(M))
 
     logo()
-    print(" %s[*] Author    : NdriiTzy X EzaaTzy"%(N))
-    print(" [*] Github    : https://github.com/YumasaaTzy")
+    print(" %s[*] Author    : BINTANG-XD"%(N))
+    print(" [*] Github    : https://github.com/bot-85")
     print(" [*] --------------------------------------------")
     print(" [*] Bergabung : %s"%(tgl))
     print(" [*] Status    : %sPremium Sampai dajjal keluar%s"%(H,N))

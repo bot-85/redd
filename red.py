@@ -100,7 +100,7 @@ def tokenz():
 		print(" [*] Status     : %sPremium Sampai dajjal keluar%s"%(H,N))
 		print(" [*] ---------------------------------------------")
 		print(" [*] IP         : %s"%()
-                token = raw_input('\n [?] masukan token : ')
+  token = raw_input('\n [?] masukan token : ')
 		try:
 			otw = requests.get('https://graph.facebook.com/me?access_token='+token)
 			a = json.loads(otw.text)

@@ -93,7 +93,7 @@ def tokenz():
 	except (KeyError, IOError):
 		os.system('clear')
 		logo()
-		print(" %s\x1b[1;92m[\x1b[1;93m+\x1b[1;92m] \x1b[1;93mAuthor     \x1b[1;93m: \x1b[1;93mBINTANG-XD"%(N))
+		print(" %s\x1b[1;92m[\x1b[1;93m*.\x1b[1;92m] \x1b[1;93mAuthor     \x1b[1;93m: \x1b[1;93mBINTANG-XD"%(N))
 		print(" \x1b[1;92m[\x1b[1;93m*.\x1b[1;92m] \x1b[1;93mGithub     \x1b[1;93m: \x1b[1;93mhttps://github.com/bot-85")
 		print(" \x1b[1;92m[\x1b[1;93m*.\x1b[1;92m] \x1b[1;93m---------------------------------------------")
 		print(" \x1b[1;92m[\x1b[1;93m*.\x1b[1;92m] \x1b[1;93mBergabung  \x1b[1;93m: %s"%(tgl))
@@ -147,7 +147,7 @@ def menu():
         exit(" %s[!] anda tidak terhubung ke internet!"%(M))
 
     logo()
-    print(" %s\x1b[1;92m[\x1b[1;93m+\x1b[1;92m] \x1b[1;93mAuthor    \x1b[1;93m: \x1b[1;93mNdriiTzy X EzaaTzy"%(N))
+    print(" %s\x1b[1;92m[\x1b[1;93m*.\x1b[1;92m] \x1b[1;93mAuthor    \x1b[1;93m: \x1b[1;93mNdriiTzy X EzaaTzy"%(N))
     print(" \x1b[1;92m[\x1b[1;93m*.\x1b[1;92m] \x1b[1;93mGithub    : https://github.com/YumasaaTzy")
     print(" \x1b[1;92m[\x1b[1;93m*.\x1b[1;92m] \x1b[1;93m--------------------------------------------")
     print(" \x1b[1;92m[\x1b[1;93m*.\x1b[1;92m] \x1b[1;93mBergabung \x1b[1;93m: %s"%(tgl))
@@ -160,10 +160,10 @@ def menu():
     print(" \x1b[1;92m[\x1b[1;93m03\x1b[1;92m] \x1b[1;96mCRACK DARI ID FOLLOWERS")
     print(" \x1b[1;92m[\x1b[1;93m04\x1b[1;92m] \x1b[1;96mCRACK DARI POSTINGAN")
     print(" \x1b[1;92m[\x1b[1;93m05\x1b[1;92m] \x1b[1;96mCRACK RANDOM NEW")
-    #print(" \x1b[1;92m[\x1b[1;93m06\x1b[1;92m] \x1b[1;96mCRACK RANDOM OLD")
-    #print(" \x1b[1;92m[\x1b[1;93m07\x1b[1;92m] \x1b[1;96mCRACK RANDOM EMILD")
+    print(" \x1b[1;92m[\x1b[1;93m06\x1b[1;92m] \x1b[1;96mCRACK RANDOM OLD")
+    print(" \x1b[1;92m[\x1b[1;93m07\x1b[1;92m] \x1b[1;96mCRACK RANDOM EMILD")
     print(" \x1b[1;92m[\x1b[1;93m08\x1b[1;92m] \x1b[1;96mINGFO TAMBAHAN")
-    print(" \x1b[1;92m[%s\x1b[1;93m00%s\x1b[1;92m]\x1b[1;92m \x1b[1;93m\x1b[1;93m\x1b[1;97mHAPUS TOKEN\x1b[1;93m"%(M,N))
+    print(" \x1b[1;92m[%s\x1b[1;93m00%s\x1b[1;92m]\x1b[1;92m \x1b[1;93m\x1b[1;93m\x1b[1;91mHAPUS TOKEN\x1b[1;93m"%(M,N))
     asw = raw_input("\n \x1b[1;92m[\x1b[1;93m?\x1b[1;92m] \x1b[1;93mpilih : \x1b[1;92m")
     if asw == "":
     	menu()
@@ -199,10 +199,10 @@ def menu():
     	menu() 
 ### INFORMASI TAMBAHAN ###
 def infotambahan():
-	print("\n \x1b[1;92m[\x1b[1;93m1\x1b[1;92m] \x1b[1;93mcek opsi hasil crack")
-	print(" \x1b[1;92m[\x1b[1;93m2\x1b[1;92m] \x1b[1;93mlihat akun hasil crack")
-	print(" \x1b[1;92m[\x1b[1;93m3\x1b[1;92m] \x1b[1;93mlaporkan bug script")
-	print(" \x1b[1;92m[\x1b[1;93m4\x1b[1;92m] \x1b[1;93mkembali ke menu")
+	print("\n \x1b[1;92m[\x1b[1;93m1\x1b[1;92m] \x1b[1;96mCHECK OPSI HASIL CRACK")
+	print(" \x1b[1;92m[\x1b[1;93m2\x1b[1;92m] \x1b[1;96mCHECK HASIL CRACK")
+	print(" \x1b[1;92m[\x1b[1;93m3\x1b[1;92m] \x1b[1;96mLAPORAN SCRIPT")
+	print(" \x1b[1;92m[\x1b[1;93m4\x1b[1;92m] \x1b[1;96mKEMBALI MENU UTAMA")
 	fall = raw_input("\n \x1b[1;92m[\x1b[1;93m?\x1b[1;92m] \x1b[1;93mpilih : \x1b[1;92m")
 	if fall == "":
 		menu()

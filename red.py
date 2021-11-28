@@ -154,7 +154,7 @@ def menu():
     print(" \x1b[1;92m[\x1b[1;93m*.\x1b[1;92m] \x1b[1;93mStatus    \x1b[1;93m: %s\x1b[1;92mPremium Sampe termux tutup%s"%(H,N))
     print(" \x1b[1;92m[\x1b[1;93m*.\x1b[1;92m] \x1b[1;93m--------------------------------------------")
     print(" \x1b[1;92m[\x1b[1;93m*.\x1b[1;92m] \x1b[1;93mIP        \x1b[1;93m: %s"%(IP))
-    print("\n \x1b[1;92m[ \x1b[1;97mselamat Ya %s%s%s \x1b[1;92m]\n"%(K,nama,N))
+    print("\n \x1b[1;92m[ \x1b[1;97mselamat Ya %s%s%s \x1b[1;94m]\n"%(K,nama,N))
     print(" \x1b[1;92m[\x1b[1;93m01\x1b[1;92m] \x1b[1;96mCRACK DARI ID PUBLIK")
     print(" \x1b[1;92m[\x1b[1;93m02\x1b[1;92m] \x1b[1;96mCRACK DARI ID MASAL")
     print(" \x1b[1;92m[\x1b[1;93m03\x1b[1;92m] \x1b[1;96mCRACK DARI ID FOLLOWERS")
@@ -163,7 +163,7 @@ def menu():
     print(" \x1b[1;92m[\x1b[1;93m06\x1b[1;92m] \x1b[1;96mCRACK RANDOM ID OLD")
     print(" \x1b[1;92m[\x1b[1;93m07\x1b[1;92m] \x1b[1;96mCRACK ACAK FB EMAIL \x1b[1;91m[ BETA ]")
     print(" \x1b[1;92m[\x1b[1;93m08\x1b[1;92m] \x1b[1;92mINGFO TAMBAHAN")
-    print(" \x1b[1;92m[%s\x1b[1;93m00%s\x1b[1;92m]\x1b[1;92m. \x1b[1;93m \x1b[1;93m\x1b[1;91mHAPUS TOKEN\x1b[1;93m"%(M,N))
+    print(" \x1b[1;92m[%s\x1b[1;93m00%s\x1b[1;92m]\x1b[1;92m\x1b[1;93m \x1b[1;93m\x1b[1;91mHAPUS TOKEN\x1b[1;93m"%(M,N))
     asw = raw_input("\n \x1b[1;92m[\x1b[1;93m?\x1b[1;92m] \x1b[1;93mpilih : \x1b[1;92m")
     if asw == "":
     	menu()

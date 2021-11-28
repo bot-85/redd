@@ -159,10 +159,9 @@ def menu():
     print(" \x1b[1;92m[\x1b[1;93m02\x1b[1;92m] \x1b[1;96mCRACK DARI ID MASAL")
     print(" \x1b[1;92m[\x1b[1;93m03\x1b[1;92m] \x1b[1;96mCRACK DARI ID FOLLOWERS")
     print(" \x1b[1;92m[\x1b[1;93m04\x1b[1;92m] \x1b[1;96mCRACK DARI ID POSTINGAN")
-    print(" \x1b[1;92m[\x1b[1;93m05\x1b[1;92m] \x1b[1;96mCRACK RANDOM ID NEW")
-    print(" \x1b[1;92m[\x1b[1;93m06\x1b[1;92m] \x1b[1;96mCRACK RANDOM ID OLD")
-    print(" \x1b[1;92m[\x1b[1;93m07\x1b[1;92m] \x1b[1;96mCRACK ACAK FB EMAIL \x1b[1;91m[ BETA ]")
-    print(" \x1b[1;92m[\x1b[1;93m08\x1b[1;92m] \x1b[1;92mINGFO TAMBAHAN")
+    print("\n \x1b[1;92m[\x1b[1;93m05\x1b[1;92m] \x1b[1;96mCHECK OPSI HASIL CRACK")
+    print(" \x1b[1;92m[\x1b[1;93m06\x1b[1;92m] \x1b[1;96mCHECK FB HASIL CRACK")
+    print(" \x1b[1;92m[\x1b[1;93m07\x1b[1;92m] \x1b[1;96mLAPORKAN SCRIPT/TOOLS")
     print(" \x1b[1;92m[%s\x1b[1;93m00%s\x1b[1;92m]\x1b[1;92m\x1b[1;93m \x1b[1;93m\x1b[1;91mHAPUS TOKEN\x1b[1;93m"%(M,N))
     asw = raw_input("\n \x1b[1;92m[\x1b[1;93m?\x1b[1;92m] \x1b[1;93mpilih : \x1b[1;92m")
     if asw == "":
@@ -197,26 +196,7 @@ def menu():
     else:
     	jalan(" [!] pilih jawaban dengan bener ! ")
     	menu() 
-### INFORMASI TAMBAHAN
-def infotambahan():
-	print("\n \x1b[1;92m[\x1b[1;93m01\x1b[1;92m] \x1b[1;96mCHECK OPSI HASIL CRACK")
-	print(" \x1b[1;92m[\x1b[1;93m02\x1b[1;92m] \x1b[1;96mCHECK FB HASIL CRACK")
-	print(" \x1b[1;92m[\x1b[1;93m03\x1b[1;92m] \x1b[1;96mLAPORKAN SCRIPT/TOOLS")
-	print(" \x1b[1;92m[\x1b[1;93m04\x1b[1;92m] \x1b[1;91mKEMBALI MENU UTAMA")
-	fall = raw_input("\n \x1b[1;92m[\x1b[1;93m?\x1b[1;92m] \x1b[1;93mpilih : \x1b[1;92m")
-	if fall == "":
-		menu()
-	elif fall == "1":
-		cekopsi()
-	elif fall == "2":
-		cekhasil()
-	elif fall == "3":
-		laporbug()
-	elif fall == "4":
-		menu()
-	else:
-		menu()
-		
+
 ### DUMP PUBLIK ###
 def publik():
 	global token
@@ -291,62 +271,7 @@ def postingan():
 		exit(" [!] postingan tidak tersedia atau post private")
 	print("\n [+] total id  : %s%s%s"%(M,len(id),N))
 	
-### DUMP ID RANDOM NEW ###
-def fbbaru():
-	x = 11111111111
-	xx = 77777777777
-	idx = "1000" 
-	limit = int(input(" [+] masukan jumlah id (cth 5000): "))
-	try:
-		for n in range(limit):
-			_ = random.randint(x,xx)
-			__ = idx
-			id.append(__+"<=>"+str(_))
-	except KeyError:
-		exit(" [!] akun tidak tersedia atau error")
-	print("\n [+] total id  : %s%s%s"%(M,len(id),N))
-	
-### DUMP ID RANDOM OLD ###
-def fbtua():
-	x = 111111111
-	xx = 999999999
-	idx = "100000" 
-	limit = int(input(" [+] masukan jumlah id (cth 5000): "))
-	try:
-		for n in range(limit):
-			_ = random.randint(x,xx)
-			__ = idx
-			self.id.append(__+str(_))
-	except KeyError:
-		exit(" [!] akun tidak tersedia atau error")
-	print("\n [+] total id  : %s%s%s"%(M,len(id),N))
-	
-### DUMP ID RANDOM EMAIL ###
-def emailfb():
-	x = 111
-	xx = 999
-	nama = input(" [?] masukan nama (cth: angga): ")
-	nama = nama.replace(" ", "")
-	domain = input(" [?] [G]mail.com, [Y]ahoo.com, [H]otmail.com : ")
-	if domain in [""]:Main()
-	elif domain in ["G", "g"]:
-		idx = "@gmail.com"
-	elif domain in ["Y", "y"]:
-		idx = "@yahoo.com"
-	elif domain in ["H", "h"]:
-		idx = "@hotmail.com"
-	else:Main()
-	limit = int(input(" [+] masukan jumlah id (cth 5000): "))
-	try:
-		for n in range(limit):
-			_ = random.randint(x,xx)
-			__ = idx
-			___ = nama
-			self.id.append(___+str(_)+__)
-	except KeyError:
-		exit(" [!] akun tidak tersedia atau error")
-	print("\n [+] total id  : %s%s%s"%(M,len(id),N))
-	
+
 ### CEK HASIL CRACK ###
 def cekhasil():
 	print('\n [1]. lihat hasil crack OK ')

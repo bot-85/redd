@@ -198,10 +198,10 @@ def menu():
     	menu() 
 ### INFORMASI TAMBAHAN ###
 def infotambahan():
-	print("\n \x1b[1;92m[\x1b[1;93m1\x1b[1;92m] \x1b[1;92mCHECK OPSI HASIL CRACK")
-	print(" \x1b[1;92m[\x1b[1;93m2\x1b[1;92m] \x1b[1;92mCHECK HASIL CRACK")
-	print(" \x1b[1;92m[\x1b[1;93m3\x1b[1;92m] \x1b[1;92mLAPORAN SCRIPT")
-	print(" \x1b[1;92m[\x1b[1;93m4\x1b[1;92m] \x1b[1;92mKEMBALI MENU UTAMA")
+	print("\n \x1b[1;92m[\x1b[1;93m01\x1b[1;92m] \x1b[1;92mCHECK OPSI HASIL CRACK")
+	print(" \x1b[1;92m[\x1b[1;93m02\x1b[1;92m] \x1b[1;92mCHECK HASIL CRACK")
+	print(" \x1b[1;92m[\x1b[1;93m03\x1b[1;92m] \x1b[1;92mLAPORAN SCRIPT")
+	print(" \x1b[1;92m[\x1b[1;93m04\x1b[1;92m] \x1b[1;93mKEMBALI MENU UTAMA")
 	fall = raw_input("\n \x1b[1;92m[\x1b[1;93m?\x1b[1;92m] \x1b[1;93mpilih : \x1b[1;92m")
 	if fall == "":
 		menu()

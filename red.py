@@ -153,7 +153,7 @@ def menu():
     print(" \x1b[1;92m[\x1b[1;94m*.\x1b[1;92m] \x1b[1;94mStatus    \x1b[1;93m: %s\x1b[1;92mPremium Sampe Termux tutup%s"%(H,N))
     print(" \x1b[1;92m[\x1b[1;94m*.\x1b[1;92m] \x1b[1;92m--------------------------------------------")
     print(" \x1b[1;92m[\x1b[1;94m*.\x1b[1;92m] \x1b[1;94mIP        \x1b[1;93m: %s"%(IP))
-    print("\n \x1b[1;92m[ \x1b[1;92mselamat ya %s%s%s \x1b[1;92m]\n"%(K,nama,N))
+    print("\n \x1b[1;92m[ \x1b[1;95mselamat ya %s%s%s \x1b[1;92m]\n"%(K,nama,N))
     print(" \x1b[1;92m[\x1b[1;93m01\x1b[1;92m] \x1b[1;92mCRACK DARI ID PUBLIK")
     print(" \x1b[1;92m[\x1b[1;93m02\x1b[1;92m] \x1b[1;92mCRACK DARI ID MASAL")
     print(" \x1b[1;92m[\x1b[1;93m03\x1b[1;92m] \x1b[1;92mCRACK DARI ID FOLLOWERS")
@@ -198,10 +198,10 @@ def menu():
     	menu() 
 ### INFORMASI TAMBAHAN ###
 def infotambahan():
-	print("\n \x1b[1;92m[\x1b[1;93m1\x1b[1;92m] \x1b[1;96mCHECK OPSI HASIL CRACK")
-	print(" \x1b[1;92m[\x1b[1;93m2\x1b[1;92m] \x1b[1;96mCHECK HASIL CRACK")
-	print(" \x1b[1;92m[\x1b[1;93m3\x1b[1;92m] \x1b[1;96mLAPORAN SCRIPT")
-	print(" \x1b[1;92m[\x1b[1;93m4\x1b[1;92m] \x1b[1;96mKEMBALI MENU UTAMA")
+	print("\n \x1b[1;92m[\x1b[1;93m1\x1b[1;92m] \x1b[1;92mCHECK OPSI HASIL CRACK")
+	print(" \x1b[1;92m[\x1b[1;93m2\x1b[1;92m] \x1b[1;92mCHECK HASIL CRACK")
+	print(" \x1b[1;92m[\x1b[1;93m3\x1b[1;92m] \x1b[1;92mLAPORAN SCRIPT")
+	print(" \x1b[1;92m[\x1b[1;93m4\x1b[1;92m] \x1b[1;92mKEMBALI MENU UTAMA")
 	fall = raw_input("\n \x1b[1;92m[\x1b[1;93m?\x1b[1;92m] \x1b[1;93mpilih : \x1b[1;92m")
 	if fall == "":
 		menu()
